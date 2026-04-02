@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "PFA8Kb2ZQD4=",
+  "success": true,
+  "projectFilePath": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\Honkai_Star_Rail.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\贾一凡\\.nuget\\packages\\godot.sourcegenerators\\4.5.1\\godot.sourcegenerators.4.5.1.nupkg.sha512",
+    "C:\\Users\\贾一凡\\.nuget\\packages\\godotsharp\\4.5.1\\godotsharp.4.5.1.nupkg.sha512",
+    "C:\\Users\\贾一凡\\.nuget\\packages\\godotsharpeditor\\4.5.1\\godotsharpeditor.4.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}
