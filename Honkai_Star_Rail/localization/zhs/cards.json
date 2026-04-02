@@ -1,0 +1,14 @@
+{
+  "STRIKE_HUA_HUO.description": "对指定敌人造成{Damage:diff()}点伤害",
+  "STRIKE_HUA_HUO.title": "打击",
+  "DEFEND_HUA_HUO.description": "获得{Block:diff()}点格挡",
+  "DEFEND_HUA_HUO.title": "防御",
+  "MAKE_FUN_OF_YOU.description": "使另一名玩家失去{Energy:energyIcons()}，自己获得两倍的能量",
+  "MAKE_FUN_OF_YOU.title": "压力着你",
+  "OUTERCEPT.description": "将所有本回合对你发起的攻击转移到一名队友身上，并给该队友{Block:diff()}点格挡",
+  "OUTERCEPT.title": "出卖",
+  "MIGHT_THIEF.description": "偷取一名队友{StrengthPower:diff()}点[gold]力量[/gold]",
+  "MIGHT_THIEF.title": "拿来把你"
+
+  
+}

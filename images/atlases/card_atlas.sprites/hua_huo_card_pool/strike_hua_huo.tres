@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bhnyx7nef2lde"]
+
+[ext_resource type="Texture2D" uid="uid://12c6wan2vrra" path="res://images/atlases/card_atlas.sprites/hua_huo_card_pool/strike_hua_huo.png" id="1_3h1ah"]
+
+[resource]
+atlas = ExtResource("1_3h1ah")
+region = Rect2(0, 0, 2000, 1520)
