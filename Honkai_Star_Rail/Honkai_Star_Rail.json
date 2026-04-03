@@ -1,9 +1,9 @@
 {
   "id": "Honkai_Star_Rail",
-  "name": "自定义联机mod",
+  "name": "崩坏星穹铁道",
   "author": "ayaya",
-  "description": "添加了一些自定义多人游戏卡牌",
-  "version": "v1.0.5",
+  "description": "添加了一些崩坏星穹铁道元素,和一些自定义多人游戏卡牌",
+  "version": "v1.0.6",
   "has_pck": true,
   "has_dll": true,
   "dependencies": [],
