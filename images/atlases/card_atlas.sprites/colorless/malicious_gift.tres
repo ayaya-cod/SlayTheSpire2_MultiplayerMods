@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://jp41qabvxtic"]
+
+[ext_resource type="Texture2D" uid="uid://cjwcgu3ve3y3w" path="res://images/atlases/card_atlas.sprites/colorless/malicious_gift.png" id="1_18xh7"]
+
+[resource]
+atlas = ExtResource("1_18xh7")
+region = Rect2(0, 0, 1000, 760)
