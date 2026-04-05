@@ -1,2 +1,23 @@
+# 1. 保留根目录核心结构，忽略其他所有根目录内容
+/*
+!Honkai_Star_Rail/
+!.gitignore
+!README.md
+
+# 2. 保留Honkai_Star_Rail文件夹，完全忽略内部所有文件（本地有文件，GitHub不显示）
+Honkai_Star_Rail/*
+
+# 3. 忽略所有开发/缓存/资源文件
 .godot/
+.vs/
 build/
+*.cs
+*.cs.uid
+*.csproj
+*.sln
+images/
+*.import
+*.tres
+*.png
+*.log
+.DS_Store
