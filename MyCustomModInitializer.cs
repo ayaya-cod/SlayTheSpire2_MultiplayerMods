@@ -1,3 +1,4 @@
+using Honkai_Star_Rail;
 using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Modding;
 using MegaCrit.Sts2.Core.Models.CardPools;
@@ -15,6 +16,7 @@ namespace Honkai_Star_Rail
             ModHelper.AddModelToPool(typeof(ColorlessCardPool), typeof(Outercept));
             ModHelper.AddModelToPool(typeof(ColorlessCardPool), typeof(Might_Thief));
             ModHelper.AddModelToPool(typeof(ColorlessCardPool), typeof(Malicious_Gift));
+            ModHelper.AddModelToPool(typeof(ColorlessCardPool), typeof(FireflysTrade));
 
 
         }
