@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://cvmhawscehxlw"]
+
+[ext_resource type="Texture2D" uid="uid://bqo5mecxhhjml" path="res://images/atlases/card_atlas.sprites/colorless/final_ripple.png" id="1_itdd3"]
+
+[resource]
+atlas = ExtResource("1_itdd3")
+region = Rect2(0, 0, 1000, 760)

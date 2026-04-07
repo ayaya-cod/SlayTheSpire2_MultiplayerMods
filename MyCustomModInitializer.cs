@@ -17,6 +17,8 @@ namespace Honkai_Star_Rail
             ModHelper.AddModelToPool(typeof(ColorlessCardPool), typeof(Might_Thief));
             ModHelper.AddModelToPool(typeof(ColorlessCardPool), typeof(Malicious_Gift));
             ModHelper.AddModelToPool(typeof(ColorlessCardPool), typeof(FireflysTrade));
+            ModHelper.AddModelToPool(typeof(ColorlessCardPool), typeof(Final_Ripple));
+            ModHelper.AddModelToPool(typeof(ColorlessCardPool),typeof(Revive));
 
 
         }

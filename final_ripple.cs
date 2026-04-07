@@ -12,15 +12,13 @@ using MegaCrit.Sts2.Core.Nodes.Vfx;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-// 你的专属命名空间
 namespace Honkai_Star_Rail;
 
-public sealed class FireflysTrade : CardModel
+public sealed class Final_Ripple : CardModel
 {
     public override List<CardKeyword> CanonicalKeywords => [
     CardKeyword.Retain
 ];
-    // 官方标准动态变量（原生数组，无编译错误）
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]
     {
         new PowerVar<StrengthPower>(2m),
@@ -29,7 +27,6 @@ public sealed class FireflysTrade : CardModel
         new EnergyVar(3)
     };
 
-    // 官方标准悬浮提示
     protected override IEnumerable<IHoverTip> ExtraHoverTips => new IHoverTip[]
     {
         HoverTipFactory.FromPower<StrengthPower>(),
@@ -38,46 +35,58 @@ public sealed class FireflysTrade : CardModel
         base.EnergyHoverTip
     };
 
-    public FireflysTrade()
+    // 关键1：目标改回【选定单个盟友】
+    public Final_Ripple()
         : base(1, CardType.Skill, CardRarity.Rare, TargetType.AnyAlly)
     {
     }
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        Creature? target = cardPlay.Target;
-        if (target == null || !target.IsAlive || target.Side != base.Owner.Creature.Side)
+        var selfCreature = base.Owner.Creature;
+        // 关键2：获取你【手动选定的单个队友】
+        var target = cardPlay.Target;
+
+        // 双重校验：自己存活 + 目标是合法存活盟友
+        if (selfCreature == null || !selfCreature.IsAlive)
+            return;
+        if (target == null || !target.IsAlive || target.Side != selfCreature.Side)
             return;
 
-        await CreatureCmd.Kill(target);
+        // 核心：杀死自己
+        await CreatureCmd.Kill(selfCreature);
 
-        await CreatureCmd.TriggerAnim(base.Owner.Creature, "Cast", base.Owner.Character.CastAnimDelay);
+        // 播放施法动画
+        await CreatureCmd.TriggerAnim(selfCreature, "Cast", base.Owner.Character.CastAnimDelay);
 
+        // 自杀VFX特效
         if (NCombatRoom.Instance != null)
         {
-            NFireBurningVfx vfx = NFireBurningVfx.Create(target, 1.5f, false);
+            NFireBurningVfx vfx = NFireBurningVfx.Create(selfCreature, 1.5f, false);
             NCombatRoom.Instance.CombatVfxContainer.AddChildSafely(vfx);
         }
 
-        await PowerCmd.Apply<StrengthPower>(base.Owner.Creature, base.DynamicVars.Strength.BaseValue, base.Owner.Creature, this);
-        await PowerCmd.Apply<DexterityPower>(base.Owner.Creature, base.DynamicVars.Dexterity.BaseValue, base.Owner.Creature, this);
-        await PowerCmd.Apply<PlatingPower>(base.Owner.Creature, base.DynamicVars["PlatingPower"].BaseValue, base.Owner.Creature, this);
-
+        // 关键3：仅对【选定的这一个队友】施加所有增益（无循环，无全体）
         int powerLevel = IsUpgraded ? 2 : 1;
-        await PowerCmd.Apply<FireflysTradePower>(base.Owner.Creature, powerLevel, base.Owner.Creature, this);
+        await PowerCmd.Apply<StrengthPower>(target, base.DynamicVars.Strength.BaseValue, selfCreature, this);
+        await PowerCmd.Apply<DexterityPower>(target, base.DynamicVars.Dexterity.BaseValue, selfCreature, this);
+        await PowerCmd.Apply<PlatingPower>(target, base.DynamicVars["PlatingPower"].BaseValue, selfCreature, this);
+        await PowerCmd.Apply<Final_Ripple_Power>(target, powerLevel, selfCreature, this);
     }
 
     public override async Task OnEnqueuePlayVfx(Creature? target)
     {
-        if (NCombatRoom.Instance == null || target == null)
+        var selfCreature = base.Owner.Creature;
+        if (NCombatRoom.Instance == null || selfCreature == null)
             return;
 
-        NFireBurningVfx child = NFireBurningVfx.Create(target, 1.5f, false);
+        NFireBurningVfx child = NFireBurningVfx.Create(selfCreature, 1.5f, false);
         NCombatRoom.Instance.CombatVfxContainer.AddChildSafely(child);
     }
 
     protected override void OnUpgrade()
     {
+        // 升级逻辑完全保留
         base.DynamicVars.Strength.UpgradeValueBy(1m);
         base.DynamicVars.Dexterity.UpgradeValueBy(1m);
         base.DynamicVars["PlatingPower"].UpgradeValueBy(4m);

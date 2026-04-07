@@ -13,8 +13,12 @@
   "MALICIOUS_GIFT.title": "禁止无限",
   "FIREFLYS_TRADE.description": "杀死一名队友。在你的回合开始时，获得{Energy:energyIcons()}，抽{Energy:diff()}张牌。",
   "FIREFLYS_TRADE.title": "献祭队友",
-  "FIREFLYS_TRADE.description": "杀死一名队友。获得{StrengthPower:diff()}点[gold]力量[/gold]、{DexterityPower:diff()}点[gold]敏捷[/gold]、{PlatingPower:diff()}层[gold]覆甲[/gold]，在每回合回合开始获得{Energy:energyIcons()}，抽{Energy:diff()}张牌",
-  "FIREFLYS_TRADE.title": "献祭队友"
+  "FIREFLYS_TRADE.description": "杀死一名队友。获得{StrengthPower:diff()}点[gold]力量[/gold]、{DexterityPower:diff()}点[gold]敏捷[/gold]、{PlatingPower:diff()}层[gold]覆甲[/gold]，并在每回合回合开始获得{Energy:energyIcons()}，抽{Energy:diff()}张牌",
+  "FIREFLYS_TRADE.title": "献祭队友",
+  "FINAL_RIPPLE.description":"自杀，使得一名队友获得{StrengthPower:diff()}点[gold]力量[/gold]、{DexterityPower:diff()}点[gold]敏捷[/gold]、{PlatingPower:diff()}层[gold]覆甲[/gold]，并在每回合回合开始获得{Energy:energyIcons()}，抽{Energy:diff()}张牌",
+  "FINAL_RIPPLE.title": "最后的波纹",
+  "REVIVE.description":"复活一名已死亡的队友，使其回复{Heal:diff()}点生命值",
+  "REVIVE.title": "起来重睡"
 
 
 }

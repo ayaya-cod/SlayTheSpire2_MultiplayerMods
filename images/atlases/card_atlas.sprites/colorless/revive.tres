@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://ca8r82kjb8n10"]
+
+[ext_resource type="Texture2D" uid="uid://cdtoibu8epxwk" path="res://images/atlases/card_atlas.sprites/colorless/revive.png" id="1_4lohi"]
+
+[resource]
+atlas = ExtResource("1_4lohi")
+region = Rect2(0, 0, 1000, 760)
