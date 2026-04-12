@@ -3,7 +3,7 @@
   "name": "自定义多人联机卡牌mod",
   "author": "ayaya",
   "description": "添加了一些自定义多人游戏卡牌",
-  "version": "v1.0.9",
+  "version": "v1.0.10",
   "has_pck": true,
   "has_dll": true,
   "dependencies": [],
