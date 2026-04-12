@@ -21,13 +21,13 @@ public sealed class Revive : CardModel
 ];
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]
     {
-        new HealVar(10m)
+        new HealVar(15m)
     };
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => System.Array.Empty<IHoverTip>();
     //三点能量，技能牌
     public Revive()
-        : base(3, CardType.Skill, CardRarity.Rare, TargetType.AnyAlly)
+        : base(2, CardType.Skill, CardRarity.Rare, TargetType.AnyAlly)
     {
     }
 
@@ -73,7 +73,7 @@ public sealed class Revive : CardModel
     protected override void OnUpgrade()
     {
         //升级后多回复5点生命
-        base.DynamicVars.Heal.UpgradeValueBy(5m);
+        base.DynamicVars.Heal.UpgradeValueBy(10m);
 ;
     }
 }
