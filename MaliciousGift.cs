@@ -19,7 +19,9 @@ public sealed class Malicious_Gift : CardModel
 {
     private const string EnergyKey = "Energy";
     private const string CardsKey = "Cards";
-
+    public override List<CardKeyword> CanonicalKeywords => [
+    CardKeyword.Exhaust
+];
     public override CardMultiplayerConstraint MultiplayerConstraint => CardMultiplayerConstraint.MultiplayerOnly;
 
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]

@@ -17,18 +17,16 @@ namespace Honkai_Star_Rail;
 
 public sealed class GoldTransfer : CardModel
 {
-    public override IEnumerable<CardKeyword> CanonicalKeywords => Array.Empty<CardKeyword>();
+    public override List<CardKeyword> CanonicalKeywords => [
+    CardKeyword.Exhaust
+];
+
 
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]
     {
         new GoldVar(20) // 队友失去的金币（自己获得双倍）
     };
 
-    protected override IEnumerable<IHoverTip> ExtraHoverTips => new IHoverTip[]
-    {
-        // 金币相关的提示可能需要通过其他方式实现
-        // 暂时留空，等待确定正确的HoverTip类型
-    };
 
     public GoldTransfer()
         : base(0, CardType.Skill, CardRarity.Uncommon, TargetType.AnyAlly)
