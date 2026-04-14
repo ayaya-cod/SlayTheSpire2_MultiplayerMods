@@ -22,7 +22,7 @@ public sealed class Final_Ripple_Power : PowerModel
     public override decimal ModifyHandDraw(Player player, decimal count)
     {
         if (player != base.Owner.Player) return count;
-        return count + base.Amount switch { 1 => 3m, 2 => 4m, _ => 0m };
+        return count + base.Amount switch { 1 => 2m, 2 => 3m, _ => 0m };
     }
 
     // 回合开始获得能量（仅buff持有者生效）
@@ -30,7 +30,7 @@ public sealed class Final_Ripple_Power : PowerModel
     {
         if (player != base.Owner.Player || !base.Owner.IsAlive) return;
 
-        int energy = base.Amount switch { 1 => 3, 2 => 4, _ => 0 };
+        int energy = base.Amount switch { 1 => 1, 2 => 2, _ => 0 };
         await PlayerCmd.GainEnergy(energy, base.Owner.Player);
         Flash();
     }

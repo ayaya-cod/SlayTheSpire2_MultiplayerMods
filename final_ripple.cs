@@ -20,10 +20,10 @@ public sealed class Final_Ripple : CardModel
     public override IEnumerable<CardKeyword> CanonicalKeywords => new CardKeyword[] { CardKeyword.Retain };
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]
     {
-        new PowerVar<StrengthPower>(2m),
-        new PowerVar<DexterityPower>(2m),
-        new PowerVar<PlatingPower>(5m),
-        new EnergyVar(3)
+        new PowerVar<StrengthPower>(1m),
+        new PowerVar<DexterityPower>(1m),
+        new PowerVar<PlatingPower>(4m),
+        new EnergyVar(1)
     };
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => new IHoverTip[]
@@ -88,8 +88,7 @@ public sealed class Final_Ripple : CardModel
         // 升级逻辑完全保留
         base.DynamicVars.Strength.UpgradeValueBy(1m);
         base.DynamicVars.Dexterity.UpgradeValueBy(1m);
-        base.DynamicVars["PlatingPower"].UpgradeValueBy(4m);
+        base.DynamicVars["PlatingPower"].UpgradeValueBy(2m);
         base.DynamicVars.Energy.UpgradeValueBy(1m);
-        base.EnergyCost.UpgradeBy(-1);
     }
 }
