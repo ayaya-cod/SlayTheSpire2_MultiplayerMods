@@ -9,6 +9,7 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.Nodes.Rooms;
 using MegaCrit.Sts2.Core.Nodes.Vfx;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -17,19 +18,15 @@ namespace Honkai_Star_Rail;
 
 public sealed class FireflysTrade : CardModel
 {
-    public override List<CardKeyword> CanonicalKeywords => [
-    CardKeyword.Retain
-];
-    // 官方标准动态变量（原生数组，无编译错误）
+    public override IEnumerable<CardKeyword> CanonicalKeywords => new CardKeyword[] { CardKeyword.Retain };
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]
     {
-        new PowerVar<StrengthPower>(2m),
-        new PowerVar<DexterityPower>(2m),
-        new PowerVar<PlatingPower>(5m),
+        new PowerVar<StrengthPower>(1m),
+        new PowerVar<DexterityPower>(1m),
+        new PowerVar<PlatingPower>(4m),
         new EnergyVar(3)
     };
 
-    // 官方标准悬浮提示
     protected override IEnumerable<IHoverTip> ExtraHoverTips => new IHoverTip[]
     {
         HoverTipFactory.FromPower<StrengthPower>(),
@@ -45,8 +42,10 @@ public sealed class FireflysTrade : CardModel
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        Creature? target = cardPlay.Target;
-        if (target == null || !target.IsAlive || target.Side != base.Owner.Creature.Side)
+        ArgumentNullException.ThrowIfNull(cardPlay.Target, nameof(cardPlay.Target));
+
+        Creature target = cardPlay.Target;
+        if (!target.IsAlive || target.Side != base.Owner.Creature.Side)
             return;
 
         await CreatureCmd.Kill(target);
@@ -78,10 +77,10 @@ public sealed class FireflysTrade : CardModel
 
     protected override void OnUpgrade()
     {
-        base.DynamicVars.Strength.UpgradeValueBy(1m);
-        base.DynamicVars.Dexterity.UpgradeValueBy(1m);
-        base.DynamicVars["PlatingPower"].UpgradeValueBy(4m);
-        base.DynamicVars.Energy.UpgradeValueBy(1m);
-        base.EnergyCost.UpgradeBy(-1);
+        base.DynamicVars.Strength.UpgradeValueBy(1m);  // 1 → 2
+        base.DynamicVars.Dexterity.UpgradeValueBy(1m); // 1 → 2
+        // PlatingPower 保持4层不升级
+        base.DynamicVars.Energy.UpgradeValueBy(1m);    // 3 → 4
+        // 能量消耗保持1点不减少
     }
 }

@@ -17,13 +17,13 @@ public sealed class FireflysTradePower : PowerModel
     public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.Counter;
 
-    protected override IEnumerable<IHoverTip> ExtraHoverTips => new[] { HoverTipFactory.ForEnergy(this) };
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => new IHoverTip[] { HoverTipFactory.ForEnergy(this) };
 
     // 抽牌效果
     public override decimal ModifyHandDraw(Player player, decimal count)
     {
         if (player != base.Owner.Player) return count;
-        return count + base.Amount switch { 1 => 3m, 2 => 4m, _ => 0m };
+        return count + base.Amount switch { 1 => 2m, 2 => 3m, _ => 0m };
     }
 
     // 回合开始触发
@@ -31,9 +31,8 @@ public sealed class FireflysTradePower : PowerModel
     {
         if (player != base.Owner.Player || !base.Owner.IsAlive) return;
 
-        // 获得能量
-        int energy = base.Amount switch { 1 => 3, 2 => 4, _ => 0 };
-        await PlayerCmd.GainEnergy(energy, base.Owner.Player);
+        // 获得能量（无论升级与否都是2点）
+        await PlayerCmd.GainEnergy(2, base.Owner.Player);
 
         Flash();
     }

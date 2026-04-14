@@ -9,6 +9,7 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.Nodes.Rooms;
 using MegaCrit.Sts2.Core.Nodes.Vfx;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -16,9 +17,7 @@ namespace Honkai_Star_Rail;
 
 public sealed class Final_Ripple : CardModel
 {
-    public override List<CardKeyword> CanonicalKeywords => [
-    CardKeyword.Retain
-];
+    public override IEnumerable<CardKeyword> CanonicalKeywords => new CardKeyword[] { CardKeyword.Retain };
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]
     {
         new PowerVar<StrengthPower>(2m),
@@ -43,14 +42,14 @@ public sealed class Final_Ripple : CardModel
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        var selfCreature = base.Owner.Creature;
-        // 关键2：获取你【手动选定的单个队友】
-        var target = cardPlay.Target;
+        ArgumentNullException.ThrowIfNull(cardPlay.Target, nameof(cardPlay.Target));
 
-        // 双重校验：自己存活 + 目标是合法存活盟友
+        var selfCreature = base.Owner?.Creature;
         if (selfCreature == null || !selfCreature.IsAlive)
             return;
-        if (target == null || !target.IsAlive || target.Side != selfCreature.Side)
+
+        var target = cardPlay.Target;
+        if (!target.IsAlive || target.Side != selfCreature.Side)
             return;
 
         // 核心：杀死自己

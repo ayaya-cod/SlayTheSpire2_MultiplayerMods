@@ -17,7 +17,7 @@ public sealed class Outercept : CardModel
 
     public override bool GainsBlock => true;
 
-    protected override IEnumerable<DynamicVar> CanonicalVars => new[] { new BlockVar(9m, ValueProp.Move) };
+    protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[] { new BlockVar(9m, ValueProp.Move) };
 
     public Outercept()
         : base(1, CardType.Skill, CardRarity.Uncommon, TargetType.AnyAlly)

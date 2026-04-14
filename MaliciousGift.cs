@@ -22,16 +22,13 @@ public sealed class Malicious_Gift : CardModel
 
     public override CardMultiplayerConstraint MultiplayerConstraint => CardMultiplayerConstraint.MultiplayerOnly;
 
-    protected override IEnumerable<DynamicVar> CanonicalVars =>
-    [
+    protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]
+    {
         new EnergyVar(EnergyKey, 2),
         new CardsVar(CardsKey, 2)
-    ];
+    };
 
-    protected override IEnumerable<IHoverTip> ExtraHoverTips =>
-    [
-        HoverTipFactory.FromCard<Sloth>()
-    ];
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => new IHoverTip[] { HoverTipFactory.FromCard<Normality>() };
 
     public Malicious_Gift()
         : base(
@@ -48,18 +45,18 @@ public sealed class Malicious_Gift : CardModel
         ArgumentNullException.ThrowIfNull(cardPlay.Target, nameof(cardPlay.Target));
         await CreatureCmd.TriggerAnim(base.Owner.Creature, "Cast", base.Owner.Character.CastAnimDelay);
 
-        CardModel slothCard = CardFactory.GetDistinctForCombat(
+        CardModel normalityCard = CardFactory.GetDistinctForCombat(
             cardPlay.Target.Player,
             ModelDb.CardPool<StatusCardPool>()
                 .GetUnlockedCards(cardPlay.Target.Player.UnlockState, cardPlay.Target.Player.RunState.CardMultiplayerConstraint)
-                .Where(c => c is Sloth),
+                .Where(c => c is Normality),
             1,
             base.Owner.RunState.Rng.CombatCardGeneration
         ).FirstOrDefault();
 
-        if (slothCard != null)
+        if (normalityCard != null)
         {
-            await CardPileCmd.AddGeneratedCardToCombat(slothCard, PileType.Hand, addedByPlayer: true);
+            await CardPileCmd.AddGeneratedCardToCombat(normalityCard, PileType.Hand, addedByPlayer: true);
             await Cmd.Wait(0.25f);
         }
 
