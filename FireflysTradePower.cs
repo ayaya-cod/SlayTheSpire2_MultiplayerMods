@@ -31,8 +31,8 @@ public sealed class FireflysTradePower : PowerModel
     {
         if (player != base.Owner.Player || !base.Owner.IsAlive) return;
 
-        // 获得能量（无论升级与否都是2点）
-        await PlayerCmd.GainEnergy(2, base.Owner.Player);
+        // 获得能量：等级1获得1点，等级2获得2点
+        await PlayerCmd.GainEnergy(base.Amount, base.Owner.Player);
 
         Flash();
     }

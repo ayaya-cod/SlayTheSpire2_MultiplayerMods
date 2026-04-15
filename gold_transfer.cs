@@ -29,7 +29,7 @@ public sealed class GoldTransfer : CardModel
 
 
     public GoldTransfer()
-        : base(0, CardType.Skill, CardRarity.Uncommon, TargetType.AnyAlly)
+        : base(0, CardType.Skill, CardRarity.Rare, TargetType.AnyAlly)
     {
     }
 

@@ -19,7 +19,7 @@ public sealed class Revive : CardModel
 {
     public override IEnumerable<CardKeyword> CanonicalKeywords => new CardKeyword[] { CardKeyword.Exhaust };
 
-    protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[] { new HealVar(15m) };
+    protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[] { new HealVar(15m), new EnergyVar(3), new CardsVar(3) };
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => System.Array.Empty<IHoverTip>();
 
@@ -62,6 +62,13 @@ public sealed class Revive : CardModel
 
         decimal healAmount = Math.Max(1m, (decimal)target.MaxHp * (base.DynamicVars.Heal.BaseValue / 100m));
         await CreatureCmd.Heal(target, healAmount);
+
+        // 复活后获得3点能量并抽三张牌
+        if (target.Player != null)
+        {
+            await PlayerCmd.GainEnergy(base.DynamicVars.Energy.IntValue, target.Player);
+            await CardPileCmd.Draw(choiceContext, base.DynamicVars.Cards.IntValue, target.Player);
+        }
     }
 
     public override async Task OnEnqueuePlayVfx(Creature? target)
