@@ -47,20 +47,10 @@ public sealed class Malicious_Gift : CardModel
         ArgumentNullException.ThrowIfNull(cardPlay.Target, nameof(cardPlay.Target));
         await CreatureCmd.TriggerAnim(base.Owner.Creature, "Cast", base.Owner.Character.CastAnimDelay);
 
-        CardModel normalityCard = CardFactory.GetDistinctForCombat(
-            cardPlay.Target.Player,
-            ModelDb.CardPool<StatusCardPool>()
-                .GetUnlockedCards(cardPlay.Target.Player.UnlockState, cardPlay.Target.Player.RunState.CardMultiplayerConstraint)
-                .Where(c => c is Normality),
-            1,
-            base.Owner.RunState.Rng.CombatCardGeneration
-        ).FirstOrDefault();
-
-        if (normalityCard != null)
-        {
-            await CardPileCmd.AddGeneratedCardToCombat(normalityCard, PileType.Hand, addedByPlayer: true);
-            await Cmd.Wait(0.25f);
-        }
+        // 参考CollisionCourse的写法：将凡庸Normality加入目标玩家手牌
+        var normalityCard = base.CombatState.CreateCard<Normality>(cardPlay.Target.Player);
+        await CardPileCmd.AddGeneratedCardToCombat(normalityCard, PileType.Hand, addedByPlayer: true);
+        await Cmd.Wait(0.25f);
 
         await PlayerCmd.GainEnergy(base.DynamicVars[EnergyKey].IntValue, base.Owner);
         await CardPileCmd.Draw(choiceContext, base.DynamicVars[CardsKey].IntValue, base.Owner);
@@ -71,4 +61,5 @@ public sealed class Malicious_Gift : CardModel
         base.EnergyCost.UpgradeBy(-1);
         base.DynamicVars[CardsKey].UpgradeValueBy(1m);
     }
+
 }

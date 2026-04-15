@@ -29,7 +29,7 @@ public sealed class Outercept : CardModel
         ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
 
         await CreatureCmd.GainBlock(cardPlay.Target, base.DynamicVars.Block, cardPlay);
-        await PowerCmd.Apply<CoveredPower>(cardPlay.Target, 1m, base.Owner.Creature, this);
+        await PowerCmd.Apply<CoveredPower>(base.Owner.Creature, 1m, cardPlay.Target, this);
     }
 
     protected override void OnUpgrade()

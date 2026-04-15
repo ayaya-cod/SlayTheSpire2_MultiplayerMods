@@ -1,0 +1,9 @@
+{
+  "FINAL_RIPPLE_POWER.title": "最终波纹",
+  "FINAL_RIPPLE_POWER.description": "提供抽牌增益和能量获取。",
+  "FINAL_RIPPLE_POWER.smartDescription": "每回合开始时，获得 {Amount} 点[gold]能量[/gold]。抽牌时额外抽取 {Amount} 张牌。",
+  "FIREFLYS_TRADE_POWER.title": "萤火交易",
+  "FIREFLYS_TRADE_POWER.description": "提供抽牌增益和能量获取。",
+  "FIREFLYS_TRADE_POWER.smartDescription": "每回合开始时，获得 {Amount} 点[gold]能量[/gold]。抽牌时额外抽取 {Amount} 张牌。"
+
+}

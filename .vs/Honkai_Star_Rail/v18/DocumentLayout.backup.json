@@ -3,16 +3,76 @@
   "WorkspaceRootPath": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\cosmicindifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:originalcodeabout\\cosmicindifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\collisioncourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:originalcodeabout\\collisioncourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\cloakanddagger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:originalcodeabout\\cloakanddagger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\mycustommodinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:mycustommodinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\final_ripple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:final_ripple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\final_ripple_power.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:final_ripple_power.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\fireflystrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:fireflystrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\revive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:revive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\gold_transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:gold_transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\maliciousgift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:maliciousgift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\slay the spire 2 mods\\or\\src\\Core\\Models\\Cards\\CloakAndDagger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\outercept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:outercept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\slay the spire 2 mods\\or\\src\\Core\\Hooks\\Hook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\slay the spire 2 mods\\or\\src\\Core\\Combat\\CombatState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\slay the spire 2 mods\\or\\src\\Core\\Entities\\Players\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\slay the spire 2 mods\\or\\src\\Core\\Commands\\Cmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\slay the spire 2 mods\\or\\src\\Core\\Commands\\PlayerCmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\slay the spire 2 mods\\or\\src\\Core\\Commands\\CreatureCmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\slay the spire 2 mods\\or\\src\\Core\\Models\\CardPools\\CurseCardPool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\fireflystradepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:fireflystradepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\gold_transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:gold_transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\pyre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +83,8 @@
       "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:originalcodeabout\\pyrepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\fireflystrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:fireflystrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\demesne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:originalcodeabout\\demesne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\maliciousgift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:maliciousgift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\make funofyou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\mimic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:originalcodeabout\\mimic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\mycustommodinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:mycustommodinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\debt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,14 +139,6 @@
       "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:originalcodeabout\\royalties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\final_ripple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:final_ripple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\final_ripple_power.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:final_ripple_power.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\\u82B1\u706B\u6E90\u7801\\hua_huo_bash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:\u82B1\u706B\u6E90\u7801\\hua_huo_bash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -113,10 +153,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\\u82B1\u706B\u6E90\u7801\\hua_huo_strike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:\u82B1\u706B\u6E90\u7801\\hua_huo_strike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\outercept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|solutionrelative:outercept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6DB2B65-FB02-4861-A78B-DF61F16D4E81}|Honkai_Star_Rail.csproj|f:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\modeldballcardpoolspatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -164,11 +200,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FireflysTrade.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\FireflysTrade.cs",
               "RelativeDocumentMoniker": "FireflysTrade.cs",
@@ -182,46 +218,232 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PyrePower.cs",
-              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\PyrePower.cs",
-              "RelativeDocumentMoniker": "originalcodeabout\\PyrePower.cs",
-              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\PyrePower.cs",
-              "RelativeToolTip": "originalcodeabout\\PyrePower.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CollisionCourse.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\CollisionCourse.cs",
+              "RelativeDocumentMoniker": "originalcodeabout\\CollisionCourse.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\CollisionCourse.cs",
+              "RelativeToolTip": "originalcodeabout\\CollisionCourse.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwCUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T03:53:22.983Z",
+              "WhenOpened": "2026-04-15T16:04:34.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Demesne.cs",
-              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\Demesne.cs",
-              "RelativeDocumentMoniker": "originalcodeabout\\Demesne.cs",
-              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\Demesne.cs",
-              "RelativeToolTip": "originalcodeabout\\Demesne.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwCYAAAADAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CosmicIndifference.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\CosmicIndifference.cs",
+              "RelativeDocumentMoniker": "originalcodeabout\\CosmicIndifference.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\CosmicIndifference.cs",
+              "RelativeToolTip": "originalcodeabout\\CosmicIndifference.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwBgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T03:49:45.619Z",
+              "WhenOpened": "2026-04-15T16:04:23.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CloakAndDagger.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\CloakAndDagger.cs",
+              "RelativeDocumentMoniker": "originalcodeabout\\CloakAndDagger.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\CloakAndDagger.cs",
+              "RelativeToolTip": "originalcodeabout\\CloakAndDagger.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T16:04:13.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CloakAndDagger.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Models\\Cards\\CloakAndDagger.cs",
+              "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Models\\Cards\\CloakAndDagger.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\or\\src\\Core\\Models\\Cards\\CloakAndDagger.cs",
+              "RelativeToolTip": "..\\..\\or\\src\\Core\\Models\\Cards\\CloakAndDagger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T15:38:35.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Outercept.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\Outercept.cs",
+              "RelativeDocumentMoniker": "Outercept.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\Outercept.cs",
+              "RelativeToolTip": "Outercept.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T15:36:28.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MaliciousGift.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\MaliciousGift.cs",
+              "RelativeDocumentMoniker": "MaliciousGift.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\MaliciousGift.cs",
+              "RelativeToolTip": "MaliciousGift.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwBYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T04:49:15.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Revive.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\Revive.cs",
+              "RelativeDocumentMoniker": "Revive.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\Revive.cs",
+              "RelativeToolTip": "Revive.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAiwJAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T09:59:21.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "final_ripple_power.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\final_ripple_power.cs",
+              "RelativeDocumentMoniker": "final_ripple_power.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\final_ripple_power.cs",
+              "RelativeToolTip": "final_ripple_power.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:34:00.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "final_ripple.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\final_ripple.cs",
+              "RelativeDocumentMoniker": "final_ripple.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\final_ripple.cs",
+              "RelativeToolTip": "final_ripple.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwEgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:32:34.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Pyre.cs",
-              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\Pyre.cs",
-              "RelativeDocumentMoniker": "originalcodeabout\\Pyre.cs",
-              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\Pyre.cs",
-              "RelativeToolTip": "originalcodeabout\\Pyre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
+              "Title": "MyCustomModInitializer.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\MyCustomModInitializer.cs",
+              "RelativeDocumentMoniker": "MyCustomModInitializer.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\MyCustomModInitializer.cs",
+              "RelativeToolTip": "MyCustomModInitializer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T03:49:39.151Z",
+              "WhenOpened": "2026-04-05T05:36:38.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreatureCmd.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Commands\\CreatureCmd.cs",
+              "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Commands\\CreatureCmd.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\or\\src\\Core\\Commands\\CreatureCmd.cs",
+              "RelativeToolTip": "..\\..\\or\\src\\Core\\Commands\\CreatureCmd.cs",
+              "ViewState": "AgIAAI0CAAAAAAAAAADwv7cCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:18:25.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PlayerCmd.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Commands\\PlayerCmd.cs",
+              "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Commands\\PlayerCmd.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\or\\src\\Core\\Commands\\PlayerCmd.cs",
+              "RelativeToolTip": "..\\..\\or\\src\\Core\\Commands\\PlayerCmd.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAAAN4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:28:46.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Cmd.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Commands\\Cmd.cs",
+              "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Commands\\Cmd.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\or\\src\\Core\\Commands\\Cmd.cs",
+              "RelativeToolTip": "..\\..\\or\\src\\Core\\Commands\\Cmd.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAADwv0QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:29:51.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Hook.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Hooks\\Hook.cs",
+              "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Hooks\\Hook.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\or\\src\\Core\\Hooks\\Hook.cs",
+              "RelativeToolTip": "..\\..\\or\\src\\Core\\Hooks\\Hook.cs",
+              "ViewState": "AgIAAMkCAAAAAAAAAAAAAN4CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:33:26.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Player.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Entities\\Players\\Player.cs",
+              "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Entities\\Players\\Player.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\or\\src\\Core\\Entities\\Players\\Player.cs",
+              "RelativeToolTip": "..\\..\\or\\src\\Core\\Entities\\Players\\Player.cs",
+              "ViewState": "AgIAAGICAAAAAAAAAAAAAIwCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:40:48.482Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "CombatState.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Combat\\CombatState.cs",
+              "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Combat\\CombatState.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\or\\src\\Core\\Combat\\CombatState.cs",
+              "RelativeToolTip": "..\\..\\or\\src\\Core\\Combat\\CombatState.cs",
+              "ViewState": "AgIAAG8BAAAAAAAAAADwv5kBAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:43:52.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CurseCardPool.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Models\\CardPools\\CurseCardPool.cs",
+              "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Models\\CardPools\\CurseCardPool.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\or\\src\\Core\\Models\\CardPools\\CurseCardPool.cs",
+              "RelativeToolTip": "..\\..\\or\\src\\Core\\Models\\CardPools\\CurseCardPool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T14:04:40.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "gold_transfer.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\gold_transfer.cs",
+              "RelativeDocumentMoniker": "gold_transfer.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\gold_transfer.cs",
+              "RelativeToolTip": "gold_transfer.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwCEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T07:10:31.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "AbstractModel.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\AbstractModel.cs",
               "RelativeDocumentMoniker": "originalcodeabout\\AbstractModel.cs",
@@ -233,70 +455,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "gold_transfer.cs",
-              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\gold_transfer.cs",
-              "RelativeDocumentMoniker": "gold_transfer.cs",
-              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\gold_transfer.cs",
-              "RelativeToolTip": "gold_transfer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "Pyre.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\Pyre.cs",
+              "RelativeDocumentMoniker": "originalcodeabout\\Pyre.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\Pyre.cs",
+              "RelativeToolTip": "originalcodeabout\\Pyre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T07:10:31.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T03:49:39.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MyCustomModInitializer.cs",
-              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\MyCustomModInitializer.cs",
-              "RelativeDocumentMoniker": "MyCustomModInitializer.cs",
-              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\MyCustomModInitializer.cs",
-              "RelativeToolTip": "MyCustomModInitializer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T05:36:38.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MaliciousGift.cs",
-              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\MaliciousGift.cs",
-              "RelativeDocumentMoniker": "MaliciousGift.cs",
-              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\MaliciousGift.cs",
-              "RelativeToolTip": "MaliciousGift.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T04:49:15.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
               "Title": "FireflysTradePower.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\FireflysTradePower.cs",
               "RelativeDocumentMoniker": "FireflysTradePower.cs",
               "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\FireflysTradePower.cs",
               "RelativeToolTip": "FireflysTradePower.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAIwCUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T04:41:17.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-05T04:41:17.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Revive.cs",
-              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\Revive.cs",
-              "RelativeDocumentMoniker": "Revive.cs",
-              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\Revive.cs",
-              "RelativeToolTip": "Revive.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAgwF0AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "Demesne.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\Demesne.cs",
+              "RelativeDocumentMoniker": "originalcodeabout\\Demesne.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\Demesne.cs",
+              "RelativeToolTip": "originalcodeabout\\Demesne.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwCYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T09:59:21.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T03:49:45.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
+              "Title": "PyrePower.cs",
+              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\PyrePower.cs",
+              "RelativeDocumentMoniker": "originalcodeabout\\PyrePower.cs",
+              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\PyrePower.cs",
+              "RelativeToolTip": "originalcodeabout\\PyrePower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T03:53:22.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "BelieveInYou.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\BelieveInYou.cs",
               "RelativeDocumentMoniker": "originalcodeabout\\BelieveInYou.cs",
@@ -308,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 28,
               "Title": "CardModel.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\CardModel.cs",
               "RelativeDocumentMoniker": "originalcodeabout\\CardModel.cs",
@@ -320,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "Debt.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\Debt.cs",
               "RelativeDocumentMoniker": "originalcodeabout\\Debt.cs",
@@ -332,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "Make FunOfYou.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\Make FunOfYou.cs",
               "RelativeDocumentMoniker": "Make FunOfYou.cs",
@@ -344,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 24,
               "Title": "Mimic.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\Mimic.cs",
               "RelativeDocumentMoniker": "originalcodeabout\\Mimic.cs",
@@ -356,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 29,
               "Title": "Coordinate.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\Coordinate.cs",
               "RelativeDocumentMoniker": "originalcodeabout\\Coordinate.cs",
@@ -368,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 30,
               "Title": "FairyInABottle.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\FairyInABottle.cs",
               "RelativeDocumentMoniker": "originalcodeabout\\FairyInABottle.cs",
@@ -380,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 31,
               "Title": "Intercept.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\Intercept.cs",
               "RelativeDocumentMoniker": "originalcodeabout\\Intercept.cs",
@@ -392,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 32,
               "Title": "Largesse.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\Largesse.cs",
               "RelativeDocumentMoniker": "originalcodeabout\\Largesse.cs",
@@ -404,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 33,
               "Title": "Normality.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\Normality.cs",
               "RelativeDocumentMoniker": "originalcodeabout\\Normality.cs",
@@ -416,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 34,
               "Title": "PowerModel.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\PowerModel.cs",
               "RelativeDocumentMoniker": "originalcodeabout\\PowerModel.cs",
@@ -428,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 35,
               "Title": "Royalties.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\originalcodeabout\\Royalties.cs",
               "RelativeDocumentMoniker": "originalcodeabout\\Royalties.cs",
@@ -440,19 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "final_ripple.cs",
-              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\final_ripple.cs",
-              "RelativeDocumentMoniker": "final_ripple.cs",
-              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\final_ripple.cs",
-              "RelativeToolTip": "final_ripple.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAYwEgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T15:32:34.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 36,
               "Title": "Hua_Huo_Bash.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\\u82B1\u706B\u6E90\u7801\\Hua_Huo_Bash.cs",
               "RelativeDocumentMoniker": "\u82B1\u706B\u6E90\u7801\\Hua_Huo_Bash.cs",
@@ -464,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 38,
               "Title": "Cards_Pools.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\\u82B1\u706B\u6E90\u7801\\Cards_Pools.cs",
               "RelativeDocumentMoniker": "\u82B1\u706B\u6E90\u7801\\Cards_Pools.cs",
@@ -476,19 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "final_ripple_power.cs",
-              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\final_ripple_power.cs",
-              "RelativeDocumentMoniker": "final_ripple_power.cs",
-              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\final_ripple_power.cs",
-              "RelativeToolTip": "final_ripple_power.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvw0AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T15:34:00.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 39,
               "Title": "Hua_Huo_Strike.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\\u82B1\u706B\u6E90\u7801\\Hua_Huo_Strike.cs",
               "RelativeDocumentMoniker": "\u82B1\u706B\u6E90\u7801\\Hua_Huo_Strike.cs",
@@ -500,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 37,
               "Title": "Hua_Huo_Defend.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\\u82B1\u706B\u6E90\u7801\\Hua_Huo_Defend.cs",
               "RelativeDocumentMoniker": "\u82B1\u706B\u6E90\u7801\\Hua_Huo_Defend.cs",
@@ -512,19 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Outercept.cs",
-              "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\Outercept.cs",
-              "RelativeDocumentMoniker": "Outercept.cs",
-              "ToolTip": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\Outercept.cs",
-              "RelativeToolTip": "Outercept.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T15:36:28.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 40,
               "Title": "ModelDbAllCardPoolsPatch.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\ModelDbAllCardPoolsPatch.cs",
               "RelativeDocumentMoniker": "ModelDbAllCardPoolsPatch.cs",
@@ -536,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 41,
               "Title": "MightThief.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\bhxqtd\\honkai-star-rail\\MightThief.cs",
               "RelativeDocumentMoniker": "MightThief.cs",
@@ -548,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 43,
               "Title": "Footwork.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Models\\Cards\\Footwork.cs",
               "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Models\\Cards\\Footwork.cs",
@@ -560,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 42,
               "Title": "LizardTail.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Models\\Relics\\LizardTail.cs",
               "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Models\\Relics\\LizardTail.cs",
@@ -572,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 44,
               "Title": "Dash.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Models\\Cards\\Dash.cs",
               "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Models\\Cards\\Dash.cs",
@@ -584,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 45,
               "Title": "Inflame.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Models\\Cards\\Inflame.cs",
               "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Models\\Cards\\Inflame.cs",
@@ -596,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 46,
               "Title": "StoneArmor.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Models\\Cards\\StoneArmor.cs",
               "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Models\\Cards\\StoneArmor.cs",
@@ -608,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 47,
               "Title": "PyrePower.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Models\\Powers\\PyrePower.cs",
               "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Models\\Powers\\PyrePower.cs",
@@ -620,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 49,
               "Title": "ToolsOfTheTradePower.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Models\\Powers\\ToolsOfTheTradePower.cs",
               "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Models\\Powers\\ToolsOfTheTradePower.cs",
@@ -632,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 51,
               "Title": "ToolsOfTheTrade.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Models\\Cards\\ToolsOfTheTrade.cs",
               "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Models\\Cards\\ToolsOfTheTrade.cs",
@@ -644,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 50,
               "Title": "Pyre.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Models\\Cards\\Pyre.cs",
               "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Models\\Cards\\Pyre.cs",
@@ -656,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 48,
               "Title": "TheGambitPower.cs",
               "DocumentMoniker": "F:\\slay the spire 2 mods\\or\\src\\Core\\Models\\Powers\\TheGambitPower.cs",
               "RelativeDocumentMoniker": "..\\..\\or\\src\\Core\\Models\\Powers\\TheGambitPower.cs",
